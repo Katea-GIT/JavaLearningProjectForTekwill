@@ -27,7 +27,7 @@ public class VariablesAndComments {
         falseBooleanVariable = false;
         trueBooleanVariable = true;
         firstCharFromAscii = 0;
-        lastCharFromAscii = 6553;
+        lastCharFromAscii = 6556;
         lowerLimitOfByteDataType = -128;
         upperLimitOfByteDataType = 127;
         lowerLimitOfShortDataType = -32768;
