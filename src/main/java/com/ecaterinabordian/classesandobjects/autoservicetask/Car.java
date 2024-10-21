@@ -14,16 +14,22 @@ public class Car {
 
     String fuelType;
 
-    public Car(String makeOfTheCar, String modelOfTheCar, String colorOfTheCar, int yearOfTheCar, String fuelType) {
+    public Car(String makeOfTheCar, String modelOfTheCar, String colorOfTheCar) {
         make = makeOfTheCar;
         model = modelOfTheCar;
         color = colorOfTheCar;
-        year = yearOfTheCar;
-        this.fuelType = fuelType;
     }
 
-    public Car(String plateNumber) {
+    public Car(String make, String model, String plateNumber, int year, String color, String fuelType) {
+
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
         this.plateNumber = plateNumber;
+        this.fuelType = fuelType;
+
+        System.out.println("The car in progress with the following details:");
     }
 
 }

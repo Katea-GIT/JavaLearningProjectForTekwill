@@ -8,9 +8,10 @@ public class Mechanic {
 
     int experienceYears;
 
-    public Mechanic (String name, int experienceYears) {
+    public Mechanic (String name, int experienceYears, String mechanicSpeciality) {
         this.name = name;
         this.experienceYears = experienceYears;
+        speciality = mechanicSpeciality;
     }
 
 }
